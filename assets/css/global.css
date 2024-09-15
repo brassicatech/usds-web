@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBAL STYLES */
+html {
+  scroll-behavior: smooth;
+}
+
+
+@font-face {
+	font-family: 'cabinet_black';
+	src: url('../fonts/CabinetGrotesk-Black.otf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'cabinet_eb';
+	src: url('../fonts/CabinetGrotesk-ExtraBold.otf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'cabinet_b';
+	src: url('../fonts/CabinetGrotesk-Bold.otf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'cabinet_m';
+	src: url('../fonts/CabinetGrotesk-Medium.otf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'cabinet_r';
+	src: url('../fonts/CabinetGrotesk-Regular.otf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'cabinet_l';
+	src: url('../fonts/CabinetGrotesk-Light.otf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'cabinet_t';
+	src: url('../fonts/CabinetGrotesk-Thin.otf');
+	font-display: swap;
+}
+
+
+* {
+  font-family: 'cabinet_r', sans-serif;
+  box-sizing: revert;
+  font-size: 16px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.line_dot {
+  @apply w-[4px] h-[4px] rounded-full absolute;
+}
+.dot {
+  @apply w-[4px] h-[4px] bg-[#D9D9D9] rounded-full absolute;
+}
+
+/* styles for the form on partnership */
+.form-group {
+  position: relative;
+  margin: 20px 0;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  padding-top: 20px;
+  font-size: 16px;
+  background-color: transparent;
+  border-bottom: 1px solid #3A5590;
+  outline: none;
+  resize: vertical;
+}
+
+.textarea {
+  height: 100px;
+  padding-top: 30px;
+}
+
+.label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 17px;
+  color: #5A5A77;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+/* Move label up on focus or if the input is not empty */
+.input:focus + .label,
+.input:valid + .label,
+.textarea:focus + .label,
+.textarea:valid + .label {
+  top: 0;
+  left: 10px;
+  font-size: 12px;
+  color: #5A5A77;
+}
+
+/* 
+form {
+  display: inline-block;
+  width: 100%;
+}
+.field {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  order: -1;
+  padding-left: 5px;
+  transition: all 0.3s ease-in;
+  transform: translateY(20px);
+  pointer-events: none;
+  color: #5A5A77;
+}
+input {
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 1px solid #3A5590;
+}
+input:focus + label,
+input:not(:placeholder-shown) + .label {
+  transform: translateY(-2px);
+} */

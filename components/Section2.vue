@@ -14,7 +14,7 @@
             <p
               class="text-center py-[12px] px-[30px] font-cabinet_m text-[#5FACC9]"
             >
-              WHAT IS 'USDS'
+              WHAT IS USDS?
             </p>
           </div>
         </div>
@@ -23,7 +23,7 @@
         >
           Open Participation<br />Stablecoin that Rewards<br />the Ecosystem
       </h1>
-        <p class="text-center text-[#DBDBDB]">
+        <p class="text-center text-[#DBDBDB] max-w-[450px] m-auto">
           Meet USDS: the open participation stablecoin that redefines financial
           freedom. USDS is putting power back in your hands.
         </p>

@@ -310,7 +310,7 @@ const usdcData = ref([
   { check: "no" },
   { text: "0%", error: true },
   { text: "None", error: true },
-  { text: "Coinbase, Circle" },
+  { text: "Coinbase & Circle" },
   { check: "yes" },
   { check: "yes" },
   { check: "yes" },
@@ -395,7 +395,7 @@ const comparesData = ref([
       check: "yes",
     },
     usdc: {
-      text: "Coinbase, Circle",
+      text: "Coinbase & Circle",
     },
     usdt: {
       text: "Bitfinex",

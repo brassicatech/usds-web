@@ -19,7 +19,7 @@ export default defineNuxtConfig({
         { name: 'og:title', content: 'USDS - Open Participation Stablecoin' },
         { name: 'og:description', content: 'Open Participation Stablecoin that Rewards the Ecosystem' },
         { name: 'og:type', content: 'website' },
-        { name: 'og:image', content: '/images/usds-stablecoin.png' }
+        { name: 'og:image', content: '/usds-stablecoin.png' }
       ],
       link: [
         {

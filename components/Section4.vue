@@ -38,7 +38,7 @@
       </div>
     </div>
     <div class="max-w-[1350px] m-auto md:mt-[9rem] mt-[6rem]">
-      <div class="max-w-[650px] m-auto">
+      <div class="max-w-[450px] m-auto">
         <div
           class="w-fit m-auto mb-[1.5rem] rounded-full bg-gradient-to-t from-[#292A2E] to-[#B1B1B1] p-[1px]"
         >
@@ -58,9 +58,7 @@
           USDS changes<br />the game
         </h1>
         <p class="text-center text-[16px] text-[#DBDBDB]">
-          Traditional stablecoins earn interest on their<br />reserves,
-          and 100% of that interest income is retained<br />by the issuer
-          or funneled to exchanges,<br />leaving you with nothing.
+          Traditional stablecoins earn interest on their reserves, and 100% of that interest income is retained by the issuer or funneled to exchanges, leaving you with nothing.
         </p>
       </div>
       <div class="my-[4rem] max-w-[1200px] m-auto">

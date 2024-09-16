@@ -12,6 +12,17 @@
   </div>
 </template>
 
-<script></script>
+<script setup>
+useHead({
+  title: `USDS - Open Participation Stablecoin`,
+  meta: [
+    {
+      hid: 'blog',
+      name: 'description',
+      content: `Open Participation Stablecoin that Rewards the Ecosystem`
+    }
+  ],
+})
+</script>
 
 <style></style>

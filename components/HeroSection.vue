@@ -2,9 +2,8 @@
   <div
     class="h-[90vh] bg-[url('assets/images/hero-bg.jpg')] bg-cover bg-no-repeat bg-center"
   >
-    <div class="h-full flex-col justify-between">
-      <!-- <div></div> -->
-      <div class="h-full max-w-[1350px] m-auto">
+    <div class="relative h-full flex-col justify-between overflow-hidden">
+      <div class="relative z-10 h-full max-w-[1350px] m-auto">
         <div class="h-full flex flex-col justify-center items-center">
           <div class="flex items-center">
             <p class="font-cabinet_eb text-[150px] leading-[10px]">The USD</p>
@@ -102,11 +101,20 @@
           </div>
           <button
             class="bg-[#06B1F1] h-[50px] w-[10rem] font-cabinet_b rounded-lg"
+            @click="navigateTo('/#partnership')"
           >
             Join Waitlist
           </button>
         </div>
       </div>
+      <video
+        src="@/assets/images/Bitgo-BG.mp4"
+        autoplay="{true}"
+        loop
+        muted
+        class="absolute top-0 z-1 w-auto 
+            min-w-full min-h-full max-w-none"
+      ></video>
     </div>
   </div>
 </template>

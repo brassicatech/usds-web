@@ -1,5 +1,5 @@
 <template>
-  <div class="py-[6rem] bg-gradient-to-b from-[#20212E] to-[#000000]">
+  <div id="partnership" class="py-[6rem] bg-gradient-to-b from-[#20212E] to-[#000000]">
     <div class="max-w-[1350px] w-[70%] m-auto flex justify-between">
       <div class="basis-[45%]">
         <div

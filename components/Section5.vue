@@ -21,8 +21,7 @@
           How USDS compares
         </h1>
         <p class="text-center text-[#DBDBDB]">
-          USDS offers higher yields and broader global<br />access compared to
-          traditional stablecoins
+          USDS offers higher distribution rewards and broader global access compared to other major stablecoins
         </p>
       </div>
       <div
@@ -142,7 +141,7 @@
             <h4
               class="md:text-[23px] text-[18px] py-[1.5rem] font-cabinet_b bg-gradient-to-br from-[#7A96AC] via-[#FFFFFF] to-[#BCCAD7] text-transparent bg-clip-text"
             >
-              {{ item.question || "Regulator" }}
+              {{ item.question }}
             </h4>
             <svg
               v-if="activeIndex !== index"
@@ -277,7 +276,7 @@
 
 <script setup>
 const titleData = ref([
-  { text: "Regulator" },
+  { text: "Issuer Licenses" },
   { text: "Protection from Issuer Debt Obligations in Bankruptcy" },
   { text: "% Reward Distributed" },
   { text: "Reward Model" },
@@ -286,13 +285,13 @@ const titleData = ref([
   { text: "Global Trading" },
   { text: "24x7x365" },
   { text: "Audited" },
-  { text: "Fee to convert from USDC" },
+  { text: "Stablecoin conversion fees" },
   { text: "DeFi compatible rewards" },
   { text: "Available to non-US persons" },
   { text: "Mintable in the USA" },
 ]);
 const usdsData = ref([
-  { text: "NYDFS" },
+  { text: "State Trust Charter" },
   { check: "yes" },
   { text: "~98%" },
   { text: "Ecosystem" },
@@ -311,7 +310,7 @@ const usdcData = ref([
   { check: "no" },
   { text: "0%", error: true },
   { text: "None", error: true },
-  { text: "Coinbase, Cricle" },
+  { text: "Coinbase, Circle" },
   { check: "yes" },
   { check: "yes" },
   { check: "yes" },
@@ -339,9 +338,9 @@ const usdtData = ref([
 
 const comparesData = ref([
   {
-    question: "Regulator",
+    question: "Issuer Licenses",
     usds: {
-      text: "NYDFS",
+      text: "State Trust Charter",
     },
     usdc: {
       text: "Money Transmission Licenses",
@@ -452,7 +451,7 @@ const comparesData = ref([
     },
   },
   {
-    question: "Fee to convert from USDC",
+    question: "Stablecoin conversion fees",
     usds: {
       text: "0 bps",
     },

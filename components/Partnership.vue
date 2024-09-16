@@ -8,7 +8,7 @@
     >
       <div class="basis-[45%]">
         <div
-          class="w-fit md:m-0 m-auto mb-[1.5rem] rounded-full bg-gradient-to-t from-[#292A2E] to-[#B1B1B1] p-[1px]"
+          class="w-fit md:m-0 m-auto mb-[1.5rem] md:mb-[1.5rem] rounded-full bg-gradient-to-t from-[#292A2E] to-[#B1B1B1] p-[1px]"
         >
           <div
             class="flex rounded-full h-full w-fit items-center justify-center bg-[#393A46] back"

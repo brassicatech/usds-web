@@ -58,8 +58,9 @@
           USDS changes<br />the game
         </h1>
         <p class="text-center text-[16px] text-[#DBDBDB]">
-          Traditional stablecoins funnel 100% of the yield to<br />exchanges,
-          leaving you with nothing.
+          Traditional stablecoins earn interest on their<br />reserves,
+          and 100% of that interest income is retained<br />by the issuer
+          or funneled to exchanges,<br />leaving you with nothing.
         </p>
       </div>
       <div class="my-[4rem] max-w-[1200px] m-auto">

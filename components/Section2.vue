@@ -14,7 +14,7 @@
             <p
               class="text-center py-[12px] px-[30px] font-cabinet_m text-[#5FACC9]"
             >
-              PARTICIPATE IN STABLECOIN
+              WHAT IS 'USDS'
             </p>
           </div>
         </div>

@@ -25,8 +25,7 @@
       </h1>
         <p class="text-center text-[#DBDBDB]">
           Meet USDS: the open participation stablecoin that redefines financial
-          freedom. With USDS, anyone can mint and burn coins, ensuring
-          transparency and putting power back in your hands.
+          freedom. USDS is putting power back in your hands.
         </p>
       </div>
       <div class="my-[5rem] flex space-x-4 justify-between w-full overflow-x-auto">
@@ -76,11 +75,10 @@
               alt=""
             />
             <h3 class="mb-[15px] font-cabinet_b text-[22px]">
-              Anyone Can Mint and Redeem
+              Democratizing Access
             </h3>
             <p class="text-[#DBDBDB]">
-              No gatekeepers. No restrictions. USDS enables open access for
-              minting and burning, democratizing the stablecoin experience.
+              USDS will engage with ecosystem participants of all types, democratizing the stablecoin experience.
             </p>
           </div>
         </div>

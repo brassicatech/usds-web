@@ -5,98 +5,23 @@
     <div class="relative h-full flex-col justify-between overflow-hidden">
       <div class="relative z-10 h-full max-w-[1350px] m-auto">
         <div class="h-full flex flex-col justify-center items-center">
-          <div class="flex items-center">
-            <p class="font-cabinet_eb text-[150px] leading-[10px]">The USD</p>
             <p
-              class="text-[25px] ml-4 font-cabinet_l text-[#EFE9E9] leading-[34px]"
+              class="text-[16px] mb-[1rem] font-cabinet_l text-[#EFE9E9] block md:hidden"
+            >
+              Open Participation Stablecoin
+            </p>
+          <div class="flex items-center">
+            <h1 class="font-cabinet_eb text-[65px] leading-[60px] md:leading-[10px] md:text-[150px]">The USD</h1>
+            <p
+              class="text-[25px] ml-4 font-cabinet_l text-[#EFE9E9] leading-[34px] hidden md:block"
             >
               Open<br />Participation<br />Stablecoin
             </p>
           </div>
-          <div class="flex items-center mt-[-30px] pl-[100px]">
-            <p class="font-cabinet_eb text-[150px]">Standard</p>
-            <div>
-              <svg
-                width="106"
-                height="113"
-                viewBox="0 0 106 113"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect
-                  x="1.19322"
-                  y="1.19322"
-                  width="103.614"
-                  height="20.0473"
-                  fill="url(#paint0_linear_4053_3453)"
-                  stroke="url(#paint1_linear_4053_3453)"
-                  stroke-width="1.61357"
-                />
-                <path
-                  d="M2 34.9901H1.19322V35.7969V53.6162V54.4229H2H85.4717C86.4902 62.8924 84.3774 69.2579 79.1752 74.6734C73.7735 80.2966 64.9969 84.9432 52.7071 89.7319L52.1932 89.9321V90.4836V110.146V111.419L53.3445 110.876L53 110.146C53.3445 110.876 53.3446 110.876 53.3448 110.876L53.3455 110.875L53.3486 110.874L53.3606 110.868L53.4084 110.846L53.5959 110.757L54.3172 110.416C54.9438 110.119 55.8514 109.69 56.9749 109.157C59.222 108.091 62.3334 106.612 65.7906 104.96C72.7031 101.657 81.0042 97.6606 86.5415 94.892C97.8257 89.2499 104.807 78.5516 104.807 68.3631V35.7969V34.9901H104H2Z"
-                  fill="url(#paint2_linear_4053_3453)"
-                  stroke="url(#paint3_linear_4053_3453)"
-                  stroke-width="1.61357"
-                />
-                <defs>
-                  <linearGradient
-                    id="paint0_linear_4053_3453"
-                    x1="118.647"
-                    y1="21.0379"
-                    x2="113.101"
-                    y2="-13.9958"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stop-color="#EFFAFF" />
-                    <stop offset="0.0765" stop-color="#D9F4FF" />
-                    <stop offset="0.182" stop-color="#C9F0FF" />
-                    <stop offset="0.3043" stop-color="#B2EAFF" />
-                    <stop offset="0.4393" stop-color="#9CE4FF" />
-                    <stop offset="0.583" stop-color="#63D4FF" />
-                    <stop offset="0.6128" stop-color="#40CBFF" />
-                    <stop offset="1" stop-color="#00AEEF" />
-                  </linearGradient>
-                  <linearGradient
-                    id="paint1_linear_4053_3453"
-                    x1="31.6901"
-                    y1="-0.873253"
-                    x2="125.549"
-                    y2="13.4929"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stop-color="white" stop-opacity="0" />
-                    <stop offset="1" stop-color="white" stop-opacity="0.44" />
-                  </linearGradient>
-                  <linearGradient
-                    id="paint2_linear_4053_3453"
-                    x1="118.647"
-                    y1="112.583"
-                    x2="52.9477"
-                    y2="9.68943"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stop-color="#EFFAFF" />
-                    <stop offset="0.0765" stop-color="#D9F4FF" />
-                    <stop offset="0.182" stop-color="#C9F0FF" />
-                    <stop offset="0.3043" stop-color="#B2EAFF" />
-                    <stop offset="0.4393" stop-color="#9CE4FF" />
-                    <stop offset="0.583" stop-color="#63D4FF" />
-                    <stop offset="0.6128" stop-color="#40CBFF" />
-                    <stop offset="1" stop-color="#00AEEF" />
-                  </linearGradient>
-                  <linearGradient
-                    id="paint3_linear_4053_3453"
-                    x1="53"
-                    y1="35.7969"
-                    x2="53"
-                    y2="110.146"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stop-color="white" stop-opacity="0.44" />
-                    <stop offset="1" stop-color="white" stop-opacity="0" />
-                  </linearGradient>
-                </defs>
-              </svg>
+          <div class="flex items-center md:mt-[-30px] mt-[-20px] pl-0 md:pl-[100px]">
+            <h1 class="font-cabinet_eb text-[65px] md:text-[150px]">Standard</h1>
+            <div class="w-[3rem] md:w-full">
+              <img src="@/assets/icons/logo-icon.svg" alt="">
             </div>
           </div>
           <button

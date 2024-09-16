@@ -18,12 +18,12 @@
               </p>
             </div>
           </div>
-          <p
-            class="font-cabinet_m text-[50px] text-center leading-[63px] mb-[1rem] bg-gradient-to-br from-[#7A96AC] via-[#FFFFFF] to-[#BCCAD7] text-transparent bg-clip-text"
+          <h1
+            class="font-cabinet_b md:text-[50px] text-[30px] text-center md:leading-[60px] leading-[40px] mb-[1rem] bg-gradient-to-br from-[#7A96AC] via-[#FFFFFF] to-[#BCCAD7] text-transparent bg-clip-text"
           >
-            Spotlighted at TOKEN2049
-          </p>
-          <p class="text-center text-[16px] text-[#DBDBDB]">
+            Spotlighted at<br>TOKEN2049
+        </h1>
+          <p class="text-center text-[#DBDBDB]">
             Be part of TOKEN2049 for insights, networking, and<br />the latest
             in blockchain innovation.
           </p>
@@ -33,14 +33,14 @@
         class="max-w-[1000px] m-auto mt-[10rem] rounded-[20px] bg-gradient-to-br from-[#ffffff46] via-[#00214a00] to-[#ffffff46] p-[1.5px]"
       >
         <div
-          class="rounded-[20px] h-full w-full flex justify-between items-center p-[4rem] backdrop-blur-sm backdrop-brightness-50 back"
+          class="rounded-[20px] h-full w-full md:flex justify-between items-center p-[4rem] backdrop-blur-sm backdrop-brightness-50 back"
         >
-          <div class="basis-[45%]">
-            <p
-              class="font-cabinet_m text-[32px] leading-[38px] mb-[1rem] text-[#E4E4E4]"
+          <div class="md:basis-[45%] basis-[100%]">
+            <h2
+              class="font-cabinet_b md:text-[32px] text-[24px] md:leading-[38px] leading-[30px] mb-[1rem] text-[#E4E4E4]"
             >
               USDS is excited to be part of TOKEN2049
-            </p>
+          </h2>
             <p class="text-[16px] text-[#E4E4E4] mb-[1.5rem]">
               The premier gathering for Web3 leaders, entrepreneurs, and
               innovators
@@ -52,11 +52,11 @@
               Join Waitlist
             </button>
           </div>
-          <div class="basis-[35%]">
+          <div class="md:basis-[35%] basis-[100%] md:mt-0 mt-[4rem]">
             <div class="mb-[1rem]">
               <p class="text-[#5FACC9]">DATE</p>
               <p
-                class="font-cabinet_m text-[22px] bg-gradient-to-br from-[#7A96AC] via-[#FFFFFF] to-[#BCCAD7] text-transparent bg-clip-text"
+                class="font-cabinet_m md:text-[22px] text-[20px] bg-gradient-to-br from-[#7A96AC] via-[#FFFFFF] to-[#BCCAD7] text-transparent bg-clip-text"
               >
                 18-19 SEPTEMBER 2024
               </p>
@@ -64,7 +64,7 @@
             <div>
               <p class="text-[#5FACC9]">VENUE</p>
               <p
-                class="font-cabinet_m text-[22px] bg-gradient-to-br from-[#7A96AC] via-[#FFFFFF] to-[#BCCAD7] text-transparent bg-clip-text"
+                class="font-cabinet_m md:text-[22px] text-[20px] bg-gradient-to-br from-[#7A96AC] via-[#FFFFFF] to-[#BCCAD7] text-transparent bg-clip-text"
               >
                 MARINA BAY SANDS
               </p>

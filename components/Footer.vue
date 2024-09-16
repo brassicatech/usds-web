@@ -1,11 +1,11 @@
 <template>
-  <div class="pt-[6rem] bg-[#000000]">
-    <div class="max-w-[1350px] m-auto flex">
-      <div class="basis-[30%]">
+  <div class="py-[6rem] bg-[#000000]">
+    <div class="max-w-[1350px] px-[1.5rem] m-auto md:flex">
+      <div class="basis-[30%] mb-[4rem] md:mb-0">
         <img class="w-[40%]" src="@/assets/images/logo.png" alt="" />
       </div>
       <div class="basis-[60%]">
-        <p class="w-[50%] text-[#DBDBDB]">
+        <p class="md:w-[50%] text-[#DBDBDB]">
           USDS is a multichain US Dollar stablecoin redeemable 1-to-1 for USD or
           USDC. The collateral of USDS is held in liquid USD-denominated
           assets—including bank deposits, money market instruments
@@ -30,9 +30,9 @@
         </div>
       </div>
     </div>
-    <div
+    <!-- <div
       class="mt-[6rem] h-[6px] bg-gradient-to-r from-[#AACCFF] to-[#0DB4F2]"
-    />
+    /> -->
   </div>
 </template>
 

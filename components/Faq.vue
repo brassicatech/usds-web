@@ -1,5 +1,8 @@
 <template>
-  <div class="pt-[6rem] bg-gradient-to-b from-[#20212E] to-[#000000]">
+  <div class="bg-gradient-to-b from-[#20212E] to-[#000000]">
+    <div
+      class="mb-[6rem] h-[6px] bg-gradient-to-r from-[#AACCFF] to-[#0DB4F2]"
+    />
     <div class="max-w-[1350px] m-auto">
       <div class="max-w-[650px] m-auto">
         <div

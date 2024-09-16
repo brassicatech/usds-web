@@ -27,12 +27,12 @@
       <div class="my-[4rem] max-w-[900px] m-auto">
         <img
           class="hidden md:block"
-          src="@/assets/images/section-4-img.png"
+          src="@/assets/images/section-4-img.webp"
           alt=""
         />
         <img
           class="block md:hidden"
-          src="@/assets/images/section-4-img-mobile.png"
+          src="@/assets/images/section-4-img-mobile.webp"
           alt=""
         />
       </div>
@@ -64,12 +64,12 @@
       <div class="my-[4rem] max-w-[1200px] m-auto">
         <img
           class="hidden md:block"
-          src="@/assets/images/section-4-img-2.png"
+          src="@/assets/images/section-4-img-2.webp"
           alt=""
         />
         <img
           class="block md:hidden"
-          src="@/assets/images/section-4-img-2-mobile.png"
+          src="@/assets/images/section-4-img-2-mobile.webp"
           alt=""
         />
       </div>

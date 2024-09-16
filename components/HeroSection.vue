@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-[90vh] bg-[url('assets/images/hero-bg.jpg')] bg-cover bg-no-repeat bg-center"
+    class="h-[90vh] bg-[url('assets/images/hero-bg.webp')] bg-cover bg-no-repeat bg-center"
   >
     <div class="relative h-full flex-col justify-between overflow-hidden">
       <div class="relative z-10 h-full max-w-[1350px] m-auto">

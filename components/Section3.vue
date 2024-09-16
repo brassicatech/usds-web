@@ -67,7 +67,7 @@
           <h4 class="mb-[15px] font-cabinet_b text-[22px]">
             Not Run by an Exchange
           </h4>
-          <p class="text-[#DBDBDB]">Independent and committed to fairness</p>
+          <p class="text-[#DBDBDB]">Independent and committed to fairness.</p>
         </div>
         <div class="relative w-full min-w-[350px] md:px-[6rem] px-[3rem]">
           <div class="dot top-0 right-0"></div>

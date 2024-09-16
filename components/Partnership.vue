@@ -21,7 +21,7 @@
         <h1
           class="font-cabinet_b md:text-[50px] text-[30px] md:text-left text-center md:leading-[60px] leading-[40px] mb-[1rem] bg-gradient-to-br from-[#7A96AC] via-[#FFFFFF] to-[#BCCAD7] text-transparent bg-clip-text"
         >
-          How you can be<br />partners with USDS
+          How you can<br />partner with USDS
         </h1>
         <p class="text-[#DBDBDB] md:text-left text-center">
           Find answers to the most common inquiries and<br />get the information

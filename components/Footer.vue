@@ -9,7 +9,7 @@
           USDS is a multichain US Dollar stablecoin redeemable 1-to-1 for USD or
           USDC. The collateral of USDS is held in liquid USD-denominated assets
           including bank deposits, short-duration T-bills, and overnight
-          repos,ensuring high liquidity and low risk.
+          repos, ensuring high liquidity and low risk.
         </p>
         <div
           class="relative h-[1px] my-[2rem] w-full bg-gradient-to-r from-[#3A5590] to-[#98baff48]"

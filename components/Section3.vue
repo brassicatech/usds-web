@@ -50,7 +50,7 @@
           <div class="dot bottom-0 left-0"></div>
           <img class="mb-[16px]" src="@/assets/icons/ny-trust.svg" alt="" />
           <h4 class="mb-[15px] font-cabinet_b text-[22px]">
-            Issued by a New York Trust Co.
+            Issued by a regulated trust company
           </h4>
           <p class="text-[#DBDBDB]">Ensuring compliance and safety.</p>
         </div>

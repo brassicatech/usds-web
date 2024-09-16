@@ -11,7 +11,7 @@
               Open Participation Stablecoin
             </p>
           <div class="flex items-center">
-            <h1 class="font-cabinet_eb text-[65px] leading-[60px] md:leading-[10px] md:text-[150px]">The USD</h1>
+            <h1 class="font-cabinet_black text-[65px] leading-[60px] md:leading-[10px] md:text-[150px]">The USD</h1>
             <p
               class="text-[25px] ml-4 font-cabinet_l text-[#EFE9E9] leading-[34px] hidden md:block"
             >
@@ -19,7 +19,7 @@
             </p>
           </div>
           <div class="flex items-center md:mt-[-30px] mt-[-20px] pl-0 md:pl-[100px]">
-            <h1 class="font-cabinet_eb text-[65px] md:text-[150px]">Standard</h1>
+            <h1 class="font-cabinet_black text-[65px] md:text-[150px]">Standard</h1>
             <div class="w-[3rem] md:w-full">
               <img src="@/assets/icons/logo-icon.svg" alt="">
             </div>

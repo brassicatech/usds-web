@@ -27,12 +27,12 @@
       <div class="my-[4rem] max-w-[900px] m-auto">
         <img
           class="hidden md:block"
-          src="@/assets/images/section-4-img.png"
+          src="@/assets/images/section-4-img.webp"
           alt=""
         />
         <img
           class="block md:hidden"
-          src="@/assets/images/section-4-img-mobile.png"
+          src="@/assets/images/section-4-img-mobile.webp"
           alt=""
         />
       </div>
@@ -58,19 +58,20 @@
           USDS changes<br />the game
         </h1>
         <p class="text-center text-[16px] text-[#DBDBDB]">
-          Traditional stablecoins funnel 100% of the yield to<br />exchanges,
-          leaving you with nothing.
+          Traditional stablecoins earn interest on their<br />reserves,
+          and 100% of that interest income is retained<br />by the issuer
+          or funneled to exchanges,<br />leaving you with nothing.
         </p>
       </div>
       <div class="my-[4rem] max-w-[1200px] m-auto">
         <img
           class="hidden md:block"
-          src="@/assets/images/section-4-img-2.png"
+          src="@/assets/images/section-4-img-2.webp"
           alt=""
         />
         <img
           class="block md:hidden"
-          src="@/assets/images/section-4-img-2-mobile.png"
+          src="@/assets/images/section-4-img-2-mobile.webp"
           alt=""
         />
       </div>

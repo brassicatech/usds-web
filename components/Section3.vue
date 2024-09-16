@@ -29,12 +29,12 @@
       <div class="my-[4rem] max-w-[700px] m-auto">
         <img
           class="hidden md:block"
-          src="@/assets/images/section-3-img.png"
+          src="@/assets/images/section-3-img.webp"
           alt=""
         />
         <img
           class="block md:hidden"
-          src="@/assets/images/section-3-img-mobile.png"
+          src="@/assets/images/section-3-img-mobile.webp"
           alt=""
         />
       </div>

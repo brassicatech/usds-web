@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative py-[6rem] bg-[url('assets/images/section-6-bg.png')] bg-cover bg-no-repeat bg-center overflow-hidden"
+    class="relative py-[6rem] bg-[url('assets/images/section-6-bg.webp')] bg-cover bg-no-repeat bg-center overflow-hidden"
   >
     <div class="relative z-20">
       <div class="max-w-[1350px] m-auto">

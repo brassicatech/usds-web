@@ -1,9 +1,9 @@
 <template>
   <div id="partnership" class="py-[6rem] bg-gradient-to-b from-[#20212E] to-[#000000]">
-    <div class="max-w-[1350px] w-[70%] m-auto flex justify-between">
+    <div class="max-w-[1350px] md:w-[70%] w-full px-[1.5rem] m-auto md:flex justify-between">
       <div class="basis-[45%]">
         <div
-          class="w-fit mb-[1.5rem] rounded-full bg-gradient-to-t from-[#292A2E] to-[#B1B1B1] p-[1px]"
+          class="w-fit md:m-0 m-auto mb-[1.5rem] rounded-full bg-gradient-to-t from-[#292A2E] to-[#B1B1B1] p-[1px]"
         >
           <div
             class="flex rounded-full h-full w-fit items-center justify-center bg-[#393A46] back"
@@ -13,17 +13,17 @@
             </p>
           </div>
         </div>
-        <p
-          class="font-cabinet_m text-[50px] leading-[63px] mb-[1rem] bg-gradient-to-br from-[#7A96AC] via-[#FFFFFF] to-[#BCCAD7] text-transparent bg-clip-text"
+        <h1
+          class="font-cabinet_b md:text-[50px] text-[30px] md:text-left text-center md:leading-[60px] leading-[40px] mb-[1rem] bg-gradient-to-br from-[#7A96AC] via-[#FFFFFF] to-[#BCCAD7] text-transparent bg-clip-text"
         >
           How you can be<br />partners with USDS
-        </p>
-        <p class="text-[16px] text-[#DBDBDB]">
+      </h1>
+        <p class="text-[#DBDBDB] md:text-left text-center">
           Find answers to the most common inquiries and<br />get the information
           you need quickly.
         </p>
       </div>
-      <div class="basis-[45%]">
+      <div class="md:basis-[45%] basis-full">
         <form class="form">
           <div class="form-group">
             <input type="text" id="company_name" class="input" required />

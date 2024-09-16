@@ -3,7 +3,7 @@
     <div
       class="mb-[6rem] h-[6px] bg-gradient-to-r from-[#AACCFF] to-[#0DB4F2]"
     />
-    <div class="max-w-[1350px] m-auto">
+    <div class="max-w-[1350px] px-[1.5rem] m-auto">
       <div class="max-w-[650px] m-auto">
         <div
           class="w-fit m-auto mb-[1.5rem] rounded-full bg-gradient-to-t from-[#292A2E] to-[#B1B1B1] p-[1px]"
@@ -18,12 +18,12 @@
             </p>
           </div>
         </div>
-        <p
-          class="font-cabinet_m text-[50px] text-center leading-[63px] mb-[1rem] bg-gradient-to-br from-[#7A96AC] via-[#FFFFFF] to-[#BCCAD7] text-transparent bg-clip-text"
+        <h1
+          class="font-cabinet_b md:text-[50px] text-[30px] text-center md:leading-[60px] leading-[40px] mb-[1rem] bg-gradient-to-br from-[#7A96AC] via-[#FFFFFF] to-[#BCCAD7] text-transparent bg-clip-text"
         >
           Frequently asked question
-        </p>
-        <p class="text-center text-[16px] text-[#DBDBDB]">
+      </h1>
+        <p class="text-center text-[#DBDBDB]">
           Find answers to the most common inquiries and<br />get the information
           you need quickly.
         </p>
@@ -31,10 +31,10 @@
       <div class="max-w-[1000px] m-auto mt-[4rem]">
         <div v-for="(item, index) in faqs" :key="index" class="">
           <button
-            class="w-full text-left flex justify-between items-center py-3 text-gray-700 focus:outline-none"
+            class="w-full text-left flex justify-between items-center md:py-3 py-1 text-gray-700 focus:outline-none"
             @click="toggle(index)"
           >
-            <span class="text-[23px] font-cabinet_b bg-gradient-to-br from-[#7A96AC] via-[#FFFFFF] to-[#BCCAD7] text-transparent bg-clip-text">{{ item.question }}</span>
+            <h4 class="md:text-[23px] text-[18px] font-cabinet_b bg-gradient-to-br from-[#7A96AC] via-[#FFFFFF] to-[#BCCAD7] text-transparent bg-clip-text">{{ item.question }}</h4>
             <svg
               v-if="activeIndex !== index"
               class="w-6 h-6 text-gray-500"
@@ -75,7 +75,7 @@
               ref="content"
               class="overflow-hidden text-gray-600"
             >
-              <div class="mt-2 w-[80%]">
+              <div class="mt-2 md:w-[80%] w-[100%]">
                 <p class="text-[#DBDBDB]">{{ item.answer }}</p>
               </div>
             </div>

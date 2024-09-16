@@ -19,7 +19,7 @@
         </div>
         <div class="w-[90%]">
           <p class="text-[13px] text-[#DBDBDB]">All rights reserved.</p>
-          <p class="text-[13px] my-[1rem] text-[#DBDBDB]">
+          <p class="text-[13px] mt-[1rem] text-[#DBDBDB]">
             No legal, tax, investment, or other advice is provided by any BitGo
             entity. Please consult your legal/tax/investment professional for
             questions about your specific circumstances. Digital asset holdings
@@ -28,7 +28,27 @@
             to large swings in value and may even become worthless.
           </p>
           <p class="text-[13px] text-[#DBDBDB]">
-            Please review our Legal Disclaimers
+            Please review our
+            <a
+              class="text-[13px] text-[#00AEEF]"
+              href="https://www.bitgo.com/legal/disclaimers"
+              target="_blank"
+              >Legal Disclaimers</a
+            >
+          </p>
+          <p class="my-[1rem] text-[13px] text-[#DBDBDB]">
+            BitGo Trust Company, Inc DBA BitGo Financial Services, Inc NMLS ID #
+            1817802
+          </p>
+          <p class="text-[13px] text-[#DBDBDB]">
+            If you are using a screen reader and are having difficulty using
+            this website, please contact
+            <a
+              class="text-[13px] text-[#00AEEF]"
+              href="mailto:support@bitgo.com"
+              target="_blank"
+              >support@bitgo.com</a
+            >
           </p>
         </div>
       </div>
